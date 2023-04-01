@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setListener(){
         cents5.setOnClickListener{
-            total += 0.0
+            total += 0.05
             val totalTwoDigits = String.format("%.2f", total).toFloat()
 
             money.text= "$" + totalTwoDigits.toString()
